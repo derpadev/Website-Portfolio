@@ -1,11 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0%;
+    margin: 0%;
+
+}
 #FrontPage {
     background: 
         linear-gradient(
         rgba(0, 0, 0, 0.45),
         rgba(0, 0, 0, 0.45)
         ),
-        url(/images/devin2.jpg);
-    height: 768px;
+        url(devin2.jpg);
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -17,7 +25,7 @@
         rgba(0, 0, 0, 0.45),
         rgba(0, 0, 0, 0.45)
         ),
-        url(/images/aboutdevin.jpg);
+        url(aboutdevin.jpg);
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,13 +40,16 @@
     padding-top: 250px;
     font-size: 70px;
     font-family: arial;
-    color:#fff
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
   }
 #Name2 {    
     padding-top: 15px;
     font-size: 30px;
     font-family: arial;
-    color:#fff
+    color:#fff;
+    text-align: center;
 }
 .links ul{
     list-style: none;   
@@ -81,63 +92,46 @@
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
-img {
-    padding-left: 100px;
-    width: 450px;
-    float: left;
-    margin-right: 3rem;
+#header {
+    font-family: "Satoshi";
+    font-size: 40px;
+    height: 50vh;
+    padding-left: 80px;
+    padding-top: 80px;
+    text-align: left;
+    background-color: rgb(238, 238, 238);
 }
-#coffee-quote {
-    font-size: x-large;
+.resume_header {
+    font-family: "Satoshi";
+    font-size: 20px;
+}
+#summary {
+    font-family: "Satoshi";
+    font-size: 20px;
+    height: 30vh;
+    padding: 20px 20px 20px 80px;
+    text-align: left;
+    background-color: rgb(238, 238, 238);
+}
+#education {
+    font-family: "Satoshi";
+    font-size: 20px;
+    height: 60vh;
+    padding: 20px 20px 20px 80px;
+    text-align: left;
+    background-color: rgb(238, 238, 238);
+}
+#experience {
+    background-color: rgb(238, 238, 238);
+    padding: 20px 20px 20px 80px;
+    font-family: "Satoshi";
+    font-size: 20px;
+    text-align: left;
 }
 #skills {
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 1rem;
-}
-#strengths {
-    float: left;
-}
-#weaknesses {
-    display: inline;
-    float: right;
-    padding-right: 80px;
-}
-#projects {
-    padding-top: 250px;
-    text-align: center;
-    font-size: 3.5em;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#youtube {
-    float: left;
-    padding-left: 200px;
-}
-.fa-folder-open {
-    font-size: 300px;
-    height: 315px;
-    width: 420px;
-    float: right;
-    padding-right: 280px;
-}
-#projects {
-    position: relative;
-    padding-top: 120px;
-}
-#youtube-channel-des {
-    float: left;
-    padding-left: 250px;
-    padding-bottom: 10px;
-}
-#calc-folder {
-    float: right;
-    padding-bottom: 10px;
-    padding-right: 380px;
-}
-#youtube-channel-quote {
-    float: left;
-}
-#youtube-channel-text {
-    float: left;
+    background-color: rgb(238, 238, 238);
+    padding: 20px 20px 20px 80px;
+    font-family: "Satoshi";
+    font-size: 20px;
+    text-align: left;
 }
