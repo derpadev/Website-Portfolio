@@ -4,7 +4,7 @@ html {
 body {
     padding: 0%;
     margin: 0%;
-
+    background-color: aliceblue;
 }
 #FrontPage {
     background: 
@@ -128,4 +128,32 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+.about-me {
+    height: 100vh;
+    text-align: justify;
+}
+#about-title {
+    font-family: "Satoshi";
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: #353640;
+}
+#about-text {
+    font-family: "Satoshi";
+    font-size: 20px;
+    text-align: left;
+    padding: 0px 150px 0px 500px;
+    color: #353640;
+}
+.about-me img {
+    display: block;
+    width: 35%;
+    padding: 0px 120px 0px 150px;
+    float: left;
+}
+#image-text {
+    padding-left: 150px;
+    color: #353640;
 }
