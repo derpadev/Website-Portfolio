@@ -131,7 +131,7 @@ body {
     background-attachment: fixed;
 }
 .about-me {
-    height: 90vh;
+    height: 85vh;
     display: block;
 }
 .about-me h8 {
@@ -164,9 +164,30 @@ body {
     padding: 0px 120px 0px 150px;
     float: left;
 }
-#image-text {
-    padding-left: 150px;
-    color: #353640;
+.services {
+  height: 100vh;
+  display: grid;
+  font-family: "Satoshi";
+  font-size: 30px;
+  text-align: center;
+  color: #353640;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  background-color: #fffaea;
+  padding: 0px 120px 0px 120px;
+  gap: 25px;
+  border: #000000;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Satoshi";
+  text-align: left;
+  color: #353640;
 }
 .yummymath {
     height: 90vh;
